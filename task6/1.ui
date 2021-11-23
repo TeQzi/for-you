@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Меню</string>
+    </property>
+    <addaction name="actionInputDialog"/>
+    <addaction name="actionQColorDialog"/>
+    <addaction name="actionQFontDialog"/>
+    <addaction name="actionQFileDialog"/>
+    <addaction name="actionQMessageBox"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionInputDialog">
+   <property name="text">
+    <string>QInputDialog</string>
+   </property>
+  </action>
+  <action name="actionQColorDialog">
+   <property name="text">
+    <string>QColorDialog</string>
+   </property>
+  </action>
+  <action name="actionQFontDialog">
+   <property name="text">
+    <string>QFontDialog</string>
+   </property>
+  </action>
+  <action name="actionQFileDialog">
+   <property name="text">
+    <string>QFileDialog</string>
+   </property>
+  </action>
+  <action name="actionQMessageBox">
+   <property name="text">
+    <string>QMessageBox</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
